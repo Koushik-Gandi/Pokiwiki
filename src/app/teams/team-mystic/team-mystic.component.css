@@ -1,0 +1,38 @@
+.team-container {
+  padding: 2rem;
+  color: white;
+  min-height: 80vh;
+}
+
+.mystic {
+  background: linear-gradient(135deg, #0077be, #00008b);
+}
+
+.team-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.team-features {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+}
