@@ -1,0 +1,20 @@
+<nav class="nav-header">
+  <div class="logo">
+    <span>Pokémon GO</span>
+  </div>
+  <ul class="nav-links">
+    <li><a routerLink="/about">About</a></li>
+    <li><a routerLink="/events">Events</a></li>
+    <li class="dropdown">
+      <a (click)="toggleTeamsDropdown()" class="dropdown-toggle">Teams</a>
+      <ul class="dropdown-menu" [class.show]="isTeamsDropdownOpen">
+        <li><a routerLink="/team-instinct" (click)="toggleTeamsDropdown()">Team Instinct</a></li>
+        <li><a routerLink="/team-mystic" (click)="toggleTeamsDropdown()">Team Mystic</a></li>
+        <li><a routerLink="/team-valor" (click)="toggleTeamsDropdown()">Team Valor</a></li>
+        <li><a routerLink="/team-rocket" (click)="toggleTeamsDropdown()">Team Rocket</a></li>
+      </ul>
+    </li>
+    <li><a routerLink="/niantic">Niantic</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>

@@ -1,8 +1,3 @@
-/* .body1{
-    background-image: url('https://media.licdn.com/dms/image/C561BAQHTvjNtMPh-nw/company-background_10000/0?e=2159024400&v=beta&t=YFLED7V45TYbMy_nbcsPRvY-Jnux-fobTYxyJ-4By0Q');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    font-family: 'Numans', sans-serif;
-    align-content: center; 
-} */
+.content {
+  padding: 2rem;
+}
