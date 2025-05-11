@@ -11,15 +11,3 @@
   border-radius: 8px;
   color: white;
 }
-.instinct {
-  background: linear-gradient(135deg, #ffd700, #ff9900);
-}
-.mystic {
-  background: linear-gradient(135deg, #0077be, #00008b);
-}
-.valor {
-  background: linear-gradient(135deg, #ff0000, #8b0000);
-}
-.rocket {
-  background: linear-gradient(135deg, #333333, #000000);
-}
