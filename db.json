@@ -1,0 +1,1218 @@
+{
+  "PokemonList": {
+    "Generations":[
+      {
+        "Generation1": [
+      {
+        "index": 1,
+        "name": "Bulbasaur",
+        "type": "Grass, Poison",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POK\u00e9MON.",
+        "evolution": "Bulbasaur \u2192 Ivysaur \u2192 Venusaur",
+        "imagePath": "pokemon_images\\Bulbasaur.png"
+      },
+      {
+        "index": 2,
+        "name": "Ivysaur",
+        "type": "Grass, Poison",
+        "description": "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+        "evolution": "Bulbasaur \u2192 Ivysaur \u2192 Venusaur",
+        "imagePath": "pokemon_images\\Ivysaur.png"
+      },
+      {
+        "index": 3,
+        "name": "Venusaur",
+        "type": "Grass, Poison",
+        "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "evolution": "Bulbasaur \u2192 Ivysaur \u2192 Venusaur",
+        "imagePath": "pokemon_images\\Venusaur.png"
+      },
+      {
+        "index": 4,
+        "name": "Charmander",
+        "type": "Fire",
+        "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+        "evolution": "Charmander \u2192 Charmeleon \u2192 Charizard",
+        "imagePath": "pokemon_images\\Charmander.png"
+      },
+      {
+        "index": 5,
+        "name": "Charmeleon",
+        "type": "Fire",
+        "description": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+        "evolution": "Charmander \u2192 Charmeleon \u2192 Charizard",
+        "imagePath": "pokemon_images\\Charmeleon.png"
+      },
+      {
+        "index": 6,
+        "name": "Charizard",
+        "type": "Fire, Flying",
+        "description": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+        "evolution": "Charmander \u2192 Charmeleon \u2192 Charizard",
+        "imagePath": "pokemon_images\\Charizard.png"
+      },
+      {
+        "index": 7,
+        "name": "Squirtle",
+        "type": "Water",
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "evolution": "Squirtle \u2192 Wartortle \u2192 Blastoise",
+        "imagePath": "pokemon_images\\Squirtle.png"
+      },
+      {
+        "index": 8,
+        "name": "Wartortle",
+        "type": "Water",
+        "description": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+        "evolution": "Squirtle \u2192 Wartortle \u2192 Blastoise",
+        "imagePath": "pokemon_images\\Wartortle.png"
+      },
+      {
+        "index": 9,
+        "name": "Blastoise",
+        "type": "Water",
+        "description": "A brutal POK\u00e9MON with pressurized water jets on its shell. They are used for high speed tackles.",
+        "evolution": "Squirtle \u2192 Wartortle \u2192 Blastoise",
+        "imagePath": "pokemon_images\\Blastoise.png"
+      },
+      {
+        "index": 10,
+        "name": "Caterpie",
+        "type": "Bug",
+        "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "evolution": "Caterpie \u2192 Metapod \u2192 Butterfree",
+        "imagePath": "pokemon_images\\Caterpie.png"
+      },
+      {
+        "index": 11,
+        "name": "Metapod",
+        "type": "Bug",
+        "description": "This POK\u00e9MON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+        "evolution": "Caterpie \u2192 Metapod \u2192 Butterfree",
+        "imagePath": "pokemon_images\\Metapod.png"
+      },
+      {
+        "index": 12,
+        "name": "Butterfree",
+        "type": "Bug, Flying",
+        "description": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+        "evolution": "Caterpie \u2192 Metapod \u2192 Butterfree",
+        "imagePath": "pokemon_images\\Butterfree.png"
+      },
+      {
+        "index": 13,
+        "name": "Weedle",
+        "type": "Bug, Poison",
+        "description": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+        "evolution": "Weedle \u2192 Kakuna \u2192 Beedrill",
+        "imagePath": "pokemon_images\\Weedle.png"
+      },
+      {
+        "index": 14,
+        "name": "Kakuna",
+        "type": "Bug, Poison",
+        "description": "Almost incapable of moving, this POK\u00e9MON can only harden its shell to protect itself from predators.",
+        "evolution": "Weedle \u2192 Kakuna \u2192 Beedrill",
+        "imagePath": "pokemon_images\\Kakuna.png"
+      },
+      {
+        "index": 15,
+        "name": "Beedrill",
+        "type": "Bug, Poison",
+        "description": "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+        "evolution": "Weedle \u2192 Kakuna \u2192 Beedrill",
+        "imagePath": "pokemon_images\\Beedrill.png"
+      },
+      {
+        "index": 16,
+        "name": "Pidgey",
+        "type": "Normal, Flying",
+        "description": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+        "evolution": "Pidgey \u2192 Pidgeotto \u2192 Pidgeot",
+        "imagePath": "pokemon_images\\Pidgey.png"
+      },
+      {
+        "index": 17,
+        "name": "Pidgeotto",
+        "type": "Normal, Flying",
+        "description": "Very protective of its sprawling territorial area, this POK\u00e9MON will fiercely peck at any intruder.",
+        "evolution": "Pidgey \u2192 Pidgeotto \u2192 Pidgeot",
+        "imagePath": "pokemon_images\\Pidgeotto.png"
+      },
+      {
+        "index": 18,
+        "name": "Pidgeot",
+        "type": "Normal, Flying",
+        "description": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+        "evolution": "Pidgey \u2192 Pidgeotto \u2192 Pidgeot",
+        "imagePath": "pokemon_images\\Pidgeot.png"
+      },
+      {
+        "index": 19,
+        "name": "Rattata",
+        "type": "Normal",
+        "description": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+        "evolution": "Rattata \u2192 Raticate",
+        "imagePath": "pokemon_images\\Rattata.png"
+      },
+      {
+        "index": 20,
+        "name": "Raticate",
+        "type": "Normal",
+        "description": "It uses its whis\u00ad kers to maintain its balance. It apparently slows down if they are cut off.",
+        "evolution": "Rattata \u2192 Raticate",
+        "imagePath": "pokemon_images\\Raticate.png"
+      },
+      {
+        "index": 21,
+        "name": "Spearow",
+        "type": "Normal, Flying",
+        "description": "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+        "evolution": "Spearow \u2192 Fearow",
+        "imagePath": "pokemon_images\\Spearow.png"
+      },
+      {
+        "index": 22,
+        "name": "Fearow",
+        "type": "Normal, Flying",
+        "description": "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
+        "evolution": "Spearow \u2192 Fearow",
+        "imagePath": "pokemon_images\\Fearow.png"
+      },
+      {
+        "index": 23,
+        "name": "Ekans",
+        "type": "Poison",
+        "description": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+        "evolution": "Ekans \u2192 Arbok",
+        "imagePath": "pokemon_images\\Ekans.png"
+      },
+      {
+        "index": 24,
+        "name": "Arbok",
+        "type": "Poison",
+        "description": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+        "evolution": "Ekans \u2192 Arbok",
+        "imagePath": "pokemon_images\\Arbok.png"
+      },
+      {
+        "index": 25,
+        "name": "Pikachu",
+        "type": "Electric",
+        "description": "When several of these POK\u00e9MON gather, their electricity could build and cause lightning storms.",
+        "evolution": "Pichu \u2192 Pikachu \u2192 Raichu",
+        "imagePath": "pokemon_images\\Pikachu.png"
+      },
+      {
+        "index": 26,
+        "name": "Raichu",
+        "type": "Electric",
+        "description": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+        "evolution": "Pichu \u2192 Pikachu \u2192 Raichu",
+        "imagePath": "pokemon_images\\Raichu.png"
+      },
+      {
+        "index": 27,
+        "name": "Sandshrew",
+        "type": "Ground",
+        "description": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+        "evolution": "Sandshrew \u2192 Sandslash",
+        "imagePath": "pokemon_images\\Sandshrew.png"
+      },
+      {
+        "index": 28,
+        "name": "Sandslash",
+        "type": "Ground",
+        "description": "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+        "evolution": "Sandshrew \u2192 Sandslash",
+        "imagePath": "pokemon_images\\Sandslash.png"
+      },
+      {
+        "index": 29,
+        "name": "Nidoran-f",
+        "type": "Poison",
+        "description": "Although small, its venomous barbs render this POK\u00e9MON dangerous. The female has smaller horns.",
+        "evolution": "Nidoran-f \u2192 Nidorina \u2192 Nidoqueen",
+        "imagePath": "pokemon_images\\Nidoran-f.png"
+      },
+      {
+        "index": 30,
+        "name": "Nidorina",
+        "type": "Poison",
+        "description": "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+        "evolution": "Nidoran-f \u2192 Nidorina \u2192 Nidoqueen",
+        "imagePath": "pokemon_images\\Nidorina.png"
+      },
+      {
+        "index": 31,
+        "name": "Nidoqueen",
+        "type": "Poison, Ground",
+        "description": "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+        "evolution": "Nidoran-f \u2192 Nidorina \u2192 Nidoqueen",
+        "imagePath": "pokemon_images\\Nidoqueen.png"
+      },
+      {
+        "index": 32,
+        "name": "Nidoran-m",
+        "type": "Poison",
+        "description": "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
+        "evolution": "Nidoran-m \u2192 Nidorino \u2192 Nidoking",
+        "imagePath": "pokemon_images\\Nidoran-m.png"
+      },
+      {
+        "index": 33,
+        "name": "Nidorino",
+        "type": "Poison",
+        "description": "An aggressive POK\u00e9MON that is quick to attack. The horn on its head secretes a powerful venom.",
+        "evolution": "Nidoran-m \u2192 Nidorino \u2192 Nidoking",
+        "imagePath": "pokemon_images\\Nidorino.png"
+      },
+      {
+        "index": 34,
+        "name": "Nidoking",
+        "type": "Poison, Ground",
+        "description": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+        "evolution": "Nidoran-m \u2192 Nidorino \u2192 Nidoking",
+        "imagePath": "pokemon_images\\Nidoking.png"
+      },
+      {
+        "index": 35,
+        "name": "Clefairy",
+        "type": "Fairy",
+        "description": "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+        "evolution": "Cleffa \u2192 Clefairy \u2192 Clefable",
+        "imagePath": "pokemon_images\\Clefairy.png"
+      },
+      {
+        "index": 36,
+        "name": "Clefable",
+        "type": "Fairy",
+        "description": "A timid fairy POK\u00e9MON that is rarely seen. It will run and hide the moment it senses people.",
+        "evolution": "Cleffa \u2192 Clefairy \u2192 Clefable",
+        "imagePath": "pokemon_images\\Clefable.png"
+      },
+      {
+        "index": 37,
+        "name": "Vulpix",
+        "type": "Fire",
+        "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+        "evolution": "Vulpix \u2192 Ninetales",
+        "imagePath": "pokemon_images\\Vulpix.png"
+      },
+      {
+        "index": 38,
+        "name": "Ninetales",
+        "type": "Fire",
+        "description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+        "evolution": "Vulpix \u2192 Ninetales",
+        "imagePath": "pokemon_images\\Ninetales.png"
+      },
+      {
+        "index": 39,
+        "name": "Jigglypuff",
+        "type": "Normal, Fairy",
+        "description": "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+        "evolution": "Igglybuff \u2192 Jigglypuff \u2192 Wigglytuff",
+        "imagePath": "pokemon_images\\Jigglypuff.png"
+      },
+      {
+        "index": 40,
+        "name": "Wigglytuff",
+        "type": "Normal, Fairy",
+        "description": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+        "evolution": "Igglybuff \u2192 Jigglypuff \u2192 Wigglytuff",
+        "imagePath": "pokemon_images\\Wigglytuff.png"
+      },
+      {
+        "index": 41,
+        "name": "Zubat",
+        "type": "Poison, Flying",
+        "description": "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
+        "evolution": "Zubat \u2192 Golbat \u2192 Crobat",
+        "imagePath": "pokemon_images\\Zubat.png"
+      },
+      {
+        "index": 42,
+        "name": "Golbat",
+        "type": "Poison, Flying",
+        "description": "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+        "evolution": "Zubat \u2192 Golbat \u2192 Crobat",
+        "imagePath": "pokemon_images\\Golbat.png"
+      },
+      {
+        "index": 43,
+        "name": "Oddish",
+        "type": "Grass, Poison",
+        "description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+        "evolution": "Oddish \u2192 Gloom \u2192 Vileplume",
+        "imagePath": "pokemon_images\\Oddish.png"
+      },
+      {
+        "index": 44,
+        "name": "Gloom",
+        "type": "Grass, Poison",
+        "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+        "evolution": "Oddish \u2192 Gloom \u2192 Vileplume",
+        "imagePath": "pokemon_images\\Gloom.png"
+      },
+      {
+        "index": 45,
+        "name": "Vileplume",
+        "type": "Grass, Poison",
+        "description": "It has the world\u2019s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+        "evolution": "Oddish \u2192 Gloom \u2192 Vileplume",
+        "imagePath": "pokemon_images\\Vileplume.png"
+      },
+      {
+        "index": 46,
+        "name": "Paras",
+        "type": "Bug, Grass",
+        "description": "Burrows to suck tree roots. The mushrooms on its back grow by draw\u00ad ing nutrients from the bug host.",
+        "evolution": "Paras \u2192 Parasect",
+        "imagePath": "pokemon_images\\Paras.png"
+      },
+      {
+        "index": 47,
+        "name": "Parasect",
+        "type": "Bug, Grass",
+        "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+        "evolution": "Paras \u2192 Parasect",
+        "imagePath": "pokemon_images\\Parasect.png"
+      },
+      {
+        "index": 48,
+        "name": "Venonat",
+        "type": "Bug, Poison",
+        "description": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+        "evolution": "Venonat \u2192 Venomoth",
+        "imagePath": "pokemon_images\\Venonat.png"
+      },
+      {
+        "index": 49,
+        "name": "Venomoth",
+        "type": "Bug, Poison",
+        "description": "The dustlike scales covering its wings are color-coded to indicate the kinds of poison it has.",
+        "evolution": "Venonat \u2192 Venomoth",
+        "imagePath": "pokemon_images\\Venomoth.png"
+      },
+      {
+        "index": 50,
+        "name": "Diglett",
+        "type": "Ground",
+        "description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+        "evolution": "Diglett \u2192 Dugtrio",
+        "imagePath": "pokemon_images\\Diglett.png"
+      },
+      {
+        "index": 51,
+        "name": "Dugtrio",
+        "type": "Ground",
+        "description": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+        "evolution": "Diglett \u2192 Dugtrio",
+        "imagePath": "pokemon_images\\Dugtrio.png"
+      },
+      {
+        "index": 52,
+        "name": "Meowth",
+        "type": "Normal",
+        "description": "It washes its face regularly to keep the coin on its forehead spotless. It doesn\u2019t get along with Galarian Meowth.",
+        "evolution": "Meowth \u2192 Persian",
+        "imagePath": "pokemon_images\\Meowth.png"
+      },
+      {
+        "index": 53,
+        "name": "Persian",
+        "type": "Normal",
+        "description": "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+        "evolution": "Meowth \u2192 Persian",
+        "imagePath": "pokemon_images\\Persian.png"
+      },
+      {
+        "index": 54,
+        "name": "Psyduck",
+        "type": "Water",
+        "description": "While lulling its enemies with its vacant look, this wily POK\u00e9MON will use psychokinetic powers.",
+        "evolution": "Psyduck \u2192 Golduck",
+        "imagePath": "pokemon_images\\Psyduck.png"
+      },
+      {
+        "index": 55,
+        "name": "Golduck",
+        "type": "Water",
+        "description": "Often seen swim\u00ad ming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
+        "evolution": "Psyduck \u2192 Golduck",
+        "imagePath": "pokemon_images\\Golduck.png"
+      },
+      {
+        "index": 56,
+        "name": "Mankey",
+        "type": "Fighting",
+        "description": "Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
+        "evolution": "Mankey \u2192 Primeape \u2192 Annihilape",
+        "imagePath": "pokemon_images\\Mankey.png"
+      },
+      {
+        "index": 57,
+        "name": "Primeape",
+        "type": "Fighting",
+        "description": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
+        "evolution": "Mankey \u2192 Primeape \u2192 Annihilape",
+        "imagePath": "pokemon_images\\Primeape.png"
+      },
+      {
+        "index": 58,
+        "name": "Growlithe",
+        "type": "Fire",
+        "description": "Very protective of its territory. It will bark and bite to repel intruders from its space.",
+        "evolution": "Growlithe \u2192 Arcanine",
+        "imagePath": "pokemon_images\\Growlithe.png"
+      },
+      {
+        "index": 59,
+        "name": "Arcanine",
+        "type": "Fire",
+        "description": "A POK\u00e9MON that has been admired since the past for its beauty. It runs agilely as if on wings.",
+        "evolution": "Growlithe \u2192 Arcanine",
+        "imagePath": "pokemon_images\\Arcanine.png"
+      },
+      {
+        "index": 60,
+        "name": "Poliwag",
+        "type": "Water",
+        "description": "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand.",
+        "evolution": "Poliwag \u2192 Poliwhirl \u2192 Poliwrath",
+        "imagePath": "pokemon_images\\Poliwag.png"
+      },
+      {
+        "index": 61,
+        "name": "Poliwhirl",
+        "type": "Water",
+        "description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+        "evolution": "Poliwag \u2192 Poliwhirl \u2192 Poliwrath",
+        "imagePath": "pokemon_images\\Poliwhirl.png"
+      },
+      {
+        "index": 62,
+        "name": "Poliwrath",
+        "type": "Water, Fighting",
+        "description": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
+        "evolution": "Poliwag \u2192 Poliwhirl \u2192 Poliwrath",
+        "imagePath": "pokemon_images\\Poliwrath.png"
+      },
+      {
+        "index": 63,
+        "name": "Abra",
+        "type": "Psychic",
+        "description": "Using its ability to read minds, it will identify impending danger and TELEPORT to safety.",
+        "evolution": "Abra \u2192 Kadabra \u2192 Alakazam",
+        "imagePath": "pokemon_images\\Abra.png"
+      },
+      {
+        "index": 64,
+        "name": "Kadabra",
+        "type": "Psychic",
+        "description": "It emits special alpha waves from its body that induce headaches just by being close by.",
+        "evolution": "Abra \u2192 Kadabra \u2192 Alakazam",
+        "imagePath": "pokemon_images\\Kadabra.png"
+      },
+      {
+        "index": 65,
+        "name": "Alakazam",
+        "type": "Psychic",
+        "description": "Its brain can out\u00ad perform a super\u00ad computer. Its intelligence quotient is said to be 5,000.",
+        "evolution": "Abra \u2192 Kadabra \u2192 Alakazam",
+        "imagePath": "pokemon_images\\Alakazam.png"
+      },
+      {
+        "index": 66,
+        "name": "Machop",
+        "type": "Fighting",
+        "description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+        "evolution": "Machop \u2192 Machoke \u2192 Machamp",
+        "imagePath": "pokemon_images\\Machop.png"
+      },
+      {
+        "index": 67,
+        "name": "Machoke",
+        "type": "Fighting",
+        "description": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+        "evolution": "Machop \u2192 Machoke \u2192 Machamp",
+        "imagePath": "pokemon_images\\Machoke.png"
+      },
+      {
+        "index": 68,
+        "name": "Machamp",
+        "type": "Fighting",
+        "description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+        "evolution": "Machop \u2192 Machoke \u2192 Machamp",
+        "imagePath": "pokemon_images\\Machamp.png"
+      },
+      {
+        "index": 69,
+        "name": "Bellsprout",
+        "type": "Grass, Poison",
+        "description": "A carnivorous POK\u00e9MON that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+        "evolution": "Bellsprout \u2192 Weepinbell \u2192 Victreebel",
+        "imagePath": "pokemon_images\\Bellsprout.png"
+      },
+      {
+        "index": 70,
+        "name": "Weepinbell",
+        "type": "Grass, Poison",
+        "description": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+        "evolution": "Bellsprout \u2192 Weepinbell \u2192 Victreebel",
+        "imagePath": "pokemon_images\\Weepinbell.png"
+      },
+      {
+        "index": 71,
+        "name": "Victreebel",
+        "type": "Grass, Poison",
+        "description": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+        "evolution": "Bellsprout \u2192 Weepinbell \u2192 Victreebel",
+        "imagePath": "pokemon_images\\Victreebel.png"
+      },
+      {
+        "index": 72,
+        "name": "Tentacool",
+        "type": "Water, Poison",
+        "description": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
+        "evolution": "Tentacool \u2192 Tentacruel",
+        "imagePath": "pokemon_images\\Tentacool.png"
+      },
+      {
+        "index": 73,
+        "name": "Tentacruel",
+        "type": "Water, Poison",
+        "description": "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+        "evolution": "Tentacool \u2192 Tentacruel",
+        "imagePath": "pokemon_images\\Tentacruel.png"
+      },
+      {
+        "index": 74,
+        "name": "Geodude",
+        "type": "Rock, Ground",
+        "description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+        "evolution": "Geodude \u2192 Graveler \u2192 Golem",
+        "imagePath": "pokemon_images\\Geodude.png"
+      },
+      {
+        "index": 75,
+        "name": "Graveler",
+        "type": "Rock, Ground",
+        "description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+        "evolution": "Geodude \u2192 Graveler \u2192 Golem",
+        "imagePath": "pokemon_images\\Graveler.png"
+      },
+      {
+        "index": 76,
+        "name": "Golem",
+        "type": "Rock, Ground",
+        "description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+        "evolution": "Geodude \u2192 Graveler \u2192 Golem",
+        "imagePath": "pokemon_images\\Golem.png"
+      },
+      {
+        "index": 77,
+        "name": "Ponyta",
+        "type": "Fire",
+        "description": "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.",
+        "evolution": "Ponyta \u2192 Rapidash",
+        "imagePath": "pokemon_images\\Ponyta.png"
+      },
+      {
+        "index": 78,
+        "name": "Rapidash",
+        "type": "Fire",
+        "description": "Very competitive, this POK\u00e9MON will chase anything that moves fast in the hopes of racing it.",
+        "evolution": "Ponyta \u2192 Rapidash",
+        "imagePath": "pokemon_images\\Rapidash.png"
+      },
+      {
+        "index": 79,
+        "name": "Slowpoke",
+        "type": "Water, Psychic",
+        "description": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+        "evolution": "Slowpoke \u2192 Slowbro",
+        "imagePath": "pokemon_images\\Slowpoke.png"
+      },
+      {
+        "index": 80,
+        "name": "Slowbro",
+        "type": "Water, Psychic",
+        "description": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+        "evolution": "Slowpoke \u2192 Slowbro",
+        "imagePath": "pokemon_images\\Slowbro.png"
+      },
+      {
+        "index": 81,
+        "name": "Magnemite",
+        "type": "Electric, Steel",
+        "description": "Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.",
+        "evolution": "Magnemite \u2192 Magneton \u2192 Magnezone",
+        "imagePath": "pokemon_images\\Magnemite.png"
+      },
+      {
+        "index": 82,
+        "name": "Magneton",
+        "type": "Electric, Steel",
+        "description": "Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.",
+        "evolution": "Magnemite \u2192 Magneton \u2192 Magnezone",
+        "imagePath": "pokemon_images\\Magneton.png"
+      },
+      {
+        "index": 83,
+        "name": "Farfetchd",
+        "type": "Normal, Flying",
+        "description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+        "evolution": "Farfetchd \u2192 Sirfetchd",
+        "imagePath": "pokemon_images\\Farfetchd.png"
+      },
+      {
+        "index": 84,
+        "name": "Doduo",
+        "type": "Normal, Flying",
+        "description": "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
+        "evolution": "Doduo \u2192 Dodrio",
+        "imagePath": "pokemon_images\\Doduo.png"
+      },
+      {
+        "index": 85,
+        "name": "Dodrio",
+        "type": "Normal, Flying",
+        "description": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+        "evolution": "Doduo \u2192 Dodrio",
+        "imagePath": "pokemon_images\\Dodrio.png"
+      },
+      {
+        "index": 86,
+        "name": "Seel",
+        "type": "Water",
+        "description": "The protruding horn on its head is very hard. It is used for bashing through thick ice.",
+        "evolution": "Seel \u2192 Dewgong",
+        "imagePath": "pokemon_images\\Seel.png"
+      },
+      {
+        "index": 87,
+        "name": "Dewgong",
+        "type": "Water, Ice",
+        "description": "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+        "evolution": "Seel \u2192 Dewgong",
+        "imagePath": "pokemon_images\\Dewgong.png"
+      },
+      {
+        "index": 88,
+        "name": "Grimer",
+        "type": "Poison",
+        "description": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+        "evolution": "Grimer \u2192 Muk",
+        "imagePath": "pokemon_images\\Grimer.png"
+      },
+      {
+        "index": 89,
+        "name": "Muk",
+        "type": "Poison",
+        "description": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+        "evolution": "Grimer \u2192 Muk",
+        "imagePath": "pokemon_images\\Muk.png"
+      },
+      {
+        "index": 90,
+        "name": "Shellder",
+        "type": "Water",
+        "description": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+        "evolution": "Shellder \u2192 Cloyster",
+        "imagePath": "pokemon_images\\Shellder.png"
+      },
+      {
+        "index": 91,
+        "name": "Cloyster",
+        "type": "Water, Ice",
+        "description": "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
+        "evolution": "Shellder \u2192 Cloyster",
+        "imagePath": "pokemon_images\\Cloyster.png"
+      },
+      {
+        "index": 92,
+        "name": "Gastly",
+        "type": "Ghost, Poison",
+        "description": "Almost invisible, this gaseous POK\u00e9MON cloaks the target and puts it to sleep without notice.",
+        "evolution": "Gastly \u2192 Haunter \u2192 Gengar",
+        "imagePath": "pokemon_images\\Gastly.png"
+      },
+      {
+        "index": 93,
+        "name": "Haunter",
+        "type": "Ghost, Poison",
+        "description": "Because of its ability to slip through block walls, it is said to be from an\u00ad other dimension.",
+        "evolution": "Gastly \u2192 Haunter \u2192 Gengar",
+        "imagePath": "pokemon_images\\Haunter.png"
+      },
+      {
+        "index": 94,
+        "name": "Gengar",
+        "type": "Ghost, Poison",
+        "description": "Under a full moon, this POK\u00e9MON likes to mimic the shadows of people and laugh at their fright.",
+        "evolution": "Gastly \u2192 Haunter \u2192 Gengar",
+        "imagePath": "pokemon_images\\Gengar.png"
+      },
+      {
+        "index": 95,
+        "name": "Onix",
+        "type": "Rock, Ground",
+        "description": "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black.",
+        "evolution": "Onix \u2192 Steelix",
+        "imagePath": "pokemon_images\\Onix.png"
+      },
+      {
+        "index": 96,
+        "name": "Drowzee",
+        "type": "Psychic",
+        "description": "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
+        "evolution": "Drowzee \u2192 Hypno",
+        "imagePath": "pokemon_images\\Drowzee.png"
+      },
+      {
+        "index": 97,
+        "name": "Hypno",
+        "type": "Psychic",
+        "description": "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",
+        "evolution": "Drowzee \u2192 Hypno",
+        "imagePath": "pokemon_images\\Hypno.png"
+      },
+      {
+        "index": 98,
+        "name": "Krabby",
+        "type": "Water",
+        "description": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+        "evolution": "Krabby \u2192 Kingler",
+        "imagePath": "pokemon_images\\Krabby.png"
+      },
+      {
+        "index": 99,
+        "name": "Kingler",
+        "type": "Water",
+        "description": "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use.",
+        "evolution": "Krabby \u2192 Kingler",
+        "imagePath": "pokemon_images\\Kingler.png"
+      },
+      {
+        "index": 100,
+        "name": "Voltorb",
+        "type": "Electric",
+        "description": "Usually found in power plants. Easily mistaken for a POK\u00e9 BALL, they have zapped many people.",
+        "evolution": "Voltorb \u2192 Electrode",
+        "imagePath": "pokemon_images\\Voltorb.png"
+      },
+      {
+        "index": 101,
+        "name": "Electrode",
+        "type": "Electric",
+        "description": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+        "evolution": "Voltorb \u2192 Electrode",
+        "imagePath": "pokemon_images\\Electrode.png"
+      },
+      {
+        "index": 102,
+        "name": "Exeggcute",
+        "type": "Grass, Psychic",
+        "description": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+        "evolution": "Exeggcute \u2192 Exeggutor",
+        "imagePath": "pokemon_images\\Exeggcute.png"
+      },
+      {
+        "index": 103,
+        "name": "Exeggutor",
+        "type": "Grass, Psychic",
+        "description": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
+        "evolution": "Exeggcute \u2192 Exeggutor",
+        "imagePath": "pokemon_images\\Exeggutor.png"
+      },
+      {
+        "index": 104,
+        "name": "Cubone",
+        "type": "Ground",
+        "description": "Because it never removes its skull helmet, no one has ever seen this POK\u00e9MON's real face.",
+        "evolution": "Cubone \u2192 Marowak",
+        "imagePath": "pokemon_images\\Cubone.png"
+      },
+      {
+        "index": 105,
+        "name": "Marowak",
+        "type": "Ground",
+        "description": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+        "evolution": "Cubone \u2192 Marowak",
+        "imagePath": "pokemon_images\\Marowak.png"
+      },
+      {
+        "index": 106,
+        "name": "Hitmonlee",
+        "type": "Fighting",
+        "description": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+        "evolution": "Tyrogue \u2192 Hitmonlee",
+        "imagePath": "pokemon_images\\Hitmonlee.png"
+      },
+      {
+        "index": 107,
+        "name": "Hitmonchan",
+        "type": "Fighting",
+        "description": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
+        "evolution": "Tyrogue \u2192 Hitmonlee",
+        "imagePath": "pokemon_images\\Hitmonchan.png"
+      },
+      {
+        "index": 108,
+        "name": "Lickitung",
+        "type": "Normal",
+        "description": "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
+        "evolution": "Lickitung \u2192 Lickilicky",
+        "imagePath": "pokemon_images\\Lickitung.png"
+      },
+      {
+        "index": 109,
+        "name": "Koffing",
+        "type": "Poison",
+        "description": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+        "evolution": "Koffing \u2192 Weezing",
+        "imagePath": "pokemon_images\\Koffing.png"
+      },
+      {
+        "index": 110,
+        "name": "Weezing",
+        "type": "Poison",
+        "description": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+        "evolution": "Koffing \u2192 Weezing",
+        "imagePath": "pokemon_images\\Weezing.png"
+      },
+      {
+        "index": 111,
+        "name": "Rhyhorn",
+        "type": "Ground, Rock",
+        "description": "A POK\u00e9MON with a one-track mind. Once it charges,  it won't stop running until it falls asleep.",
+        "evolution": "Rhyhorn \u2192 Rhydon \u2192 Rhyperior",
+        "imagePath": "pokemon_images\\Rhyhorn.png"
+      },
+      {
+        "index": 112,
+        "name": "Rhydon",
+        "type": "Ground, Rock",
+        "description": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+        "evolution": "Rhyhorn \u2192 Rhydon \u2192 Rhyperior",
+        "imagePath": "pokemon_images\\Rhydon.png"
+      },
+      {
+        "index": 113,
+        "name": "Chansey",
+        "type": "Normal",
+        "description": "A rare and elusive POK\u00e9MON that is said to bring happiness to those who manage to get it.",
+        "evolution": "Happiny \u2192 Chansey \u2192 Blissey",
+        "imagePath": "pokemon_images\\Chansey.png"
+      },
+      {
+        "index": 114,
+        "name": "Tangela",
+        "type": "Grass",
+        "description": "The whole body is swathed with wide vines that are similar to sea\u00ad weed. Its vines shake as it walks.",
+        "evolution": "Tangela \u2192 Tangrowth",
+        "imagePath": "pokemon_images\\Tangela.png"
+      },
+      {
+        "index": 115,
+        "name": "Kangaskhan",
+        "type": "Normal",
+        "description": "The infant rarely ventures out of its mother's protective pouch until it is 3 years old.",
+        "evolution": "Kangaskhan",
+        "imagePath": "pokemon_images\\Kangaskhan.png"
+      },
+      {
+        "index": 116,
+        "name": "Horsea",
+        "type": "Water",
+        "description": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+        "evolution": "Horsea \u2192 Seadra \u2192 Kingdra",
+        "imagePath": "pokemon_images\\Horsea.png"
+      },
+      {
+        "index": 117,
+        "name": "Seadra",
+        "type": "Water",
+        "description": "Capable of swim\u00ad ming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+        "evolution": "Horsea \u2192 Seadra \u2192 Kingdra",
+        "imagePath": "pokemon_images\\Seadra.png"
+      },
+      {
+        "index": 118,
+        "name": "Goldeen",
+        "type": "Water",
+        "description": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+        "evolution": "Goldeen \u2192 Seaking",
+        "imagePath": "pokemon_images\\Goldeen.png"
+      },
+      {
+        "index": 119,
+        "name": "Seaking",
+        "type": "Water",
+        "description": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+        "evolution": "Goldeen \u2192 Seaking",
+        "imagePath": "pokemon_images\\Seaking.png"
+      },
+      {
+        "index": 120,
+        "name": "Staryu",
+        "type": "Water",
+        "description": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
+        "evolution": "Staryu \u2192 Starmie",
+        "imagePath": "pokemon_images\\Staryu.png"
+      },
+      {
+        "index": 121,
+        "name": "Starmie",
+        "type": "Water, Psychic",
+        "description": "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
+        "evolution": "Staryu \u2192 Starmie",
+        "imagePath": "pokemon_images\\Starmie.png"
+      },
+      {
+        "index": 122,
+        "name": "Mr-mime",
+        "type": "Psychic, Fairy",
+        "description": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+        "evolution": "Mime-jr \u2192 Mr-mime \u2192 Mr-rime",
+        "imagePath": "pokemon_images\\Mr-mime.png"
+      },
+      {
+        "index": 123,
+        "name": "Scyther",
+        "type": "Bug, Flying",
+        "description": "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+        "evolution": "Scyther \u2192 Scizor",
+        "imagePath": "pokemon_images\\Scyther.png"
+      },
+      {
+        "index": 124,
+        "name": "Jynx",
+        "type": "Ice, Psychic",
+        "description": "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
+        "evolution": "Smoochum \u2192 Jynx",
+        "imagePath": "pokemon_images\\Jynx.png"
+      },
+      {
+        "index": 125,
+        "name": "Electabuzz",
+        "type": "Electric",
+        "description": "Normally found near power plants, they can wander away and cause major blackouts in cities.",
+        "evolution": "Elekid \u2192 Electabuzz \u2192 Electivire",
+        "imagePath": "pokemon_images\\Electabuzz.png"
+      },
+      {
+        "index": 126,
+        "name": "Magmar",
+        "type": "Fire",
+        "description": "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+        "evolution": "Magby \u2192 Magmar \u2192 Magmortar",
+        "imagePath": "pokemon_images\\Magmar.png"
+      },
+      {
+        "index": 127,
+        "name": "Pinsir",
+        "type": "Bug",
+        "description": "If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
+        "evolution": "Pinsir",
+        "imagePath": "pokemon_images\\Pinsir.png"
+      },
+      {
+        "index": 128,
+        "name": "Tauros",
+        "type": "Normal",
+        "description": "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+        "evolution": "Tauros",
+        "imagePath": "pokemon_images\\Tauros.png"
+      },
+      {
+        "index": 129,
+        "name": "Magikarp",
+        "type": "Water",
+        "description": "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+        "evolution": "Magikarp \u2192 Gyarados",
+        "imagePath": "pokemon_images\\Magikarp.png"
+      },
+      {
+        "index": 130,
+        "name": "Gyarados",
+        "type": "Water, Flying",
+        "description": "Once it begins to rampage, a GYARADOS will burn everything down, even in a harsh storm.",
+        "evolution": "Magikarp \u2192 Gyarados",
+        "imagePath": "pokemon_images\\Gyarados.png"
+      },
+      {
+        "index": 131,
+        "name": "Lapras",
+        "type": "Water, Ice",
+        "description": "A POK\u00e9MON that has been over\u00ad hunted almost to extinction. It can ferry people across the water.",
+        "evolution": "Lapras",
+        "imagePath": "pokemon_images\\Lapras.png"
+      },
+      {
+        "index": 132,
+        "name": "Ditto",
+        "type": "Normal",
+        "description": "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+        "evolution": "Ditto",
+        "imagePath": "pokemon_images\\Ditto.png"
+      },
+      {
+        "index": 133,
+        "name": "Eevee",
+        "type": "Normal",
+        "description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.",
+        "evolution": "Eevee \u2192 Vaporeon",
+        "imagePath": "pokemon_images\\Eevee.png"
+      },
+      {
+        "index": 134,
+        "name": "Vaporeon",
+        "type": "Water",
+        "description": "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
+        "evolution": "Eevee \u2192 Vaporeon",
+        "imagePath": "pokemon_images\\Vaporeon.png"
+      },
+      {
+        "index": 135,
+        "name": "Jolteon",
+        "type": "Electric",
+        "description": "It accumulates negative ions in the atmosphere to blast out 10000- volt lightning bolts.",
+        "evolution": "Eevee \u2192 Vaporeon",
+        "imagePath": "pokemon_images\\Jolteon.png"
+      },
+      {
+        "index": 136,
+        "name": "Flareon",
+        "type": "Fire",
+        "description": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+        "evolution": "Eevee \u2192 Vaporeon",
+        "imagePath": "pokemon_images\\Flareon.png"
+      },
+      {
+        "index": 137,
+        "name": "Porygon",
+        "type": "Normal",
+        "description": "A POK\u00e9MON that consists entirely of programming code. Capable of moving freely in cyberspace.",
+        "evolution": "Porygon \u2192 Porygon2 \u2192 Porygon-z",
+        "imagePath": "pokemon_images\\Porygon.png"
+      },
+      {
+        "index": 138,
+        "name": "Omanyte",
+        "type": "Rock, Water",
+        "description": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+        "evolution": "Omanyte \u2192 Omastar",
+        "imagePath": "pokemon_images\\Omanyte.png"
+      },
+      {
+        "index": 139,
+        "name": "Omastar",
+        "type": "Rock, Water",
+        "description": "A prehistoric POK\u00e9MON that died out when its heavy shell made it impossible to catch prey.",
+        "evolution": "Omanyte \u2192 Omastar",
+        "imagePath": "pokemon_images\\Omastar.png"
+      },
+      {
+        "index": 140,
+        "name": "Kabuto",
+        "type": "Rock, Water",
+        "description": "A POK\u00e9MON that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+        "evolution": "Kabuto \u2192 Kabutops",
+        "imagePath": "pokemon_images\\Kabuto.png"
+      },
+      {
+        "index": 141,
+        "name": "Kabutops",
+        "type": "Rock, Water",
+        "description": "Its sleek shape is perfect for swim\u00ad ming. It slashes prey with its claws and drains the body fluids.",
+        "evolution": "Kabuto \u2192 Kabutops",
+        "imagePath": "pokemon_images\\Kabutops.png"
+      },
+      {
+        "index": 142,
+        "name": "Aerodactyl",
+        "type": "Rock, Flying",
+        "description": "A Pok\u00e9mon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+        "evolution": "Aerodactyl",
+        "imagePath": "pokemon_images\\Aerodactyl.png"
+      },
+      {
+        "index": 143,
+        "name": "Snorlax",
+        "type": "Normal",
+        "description": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+        "evolution": "Munchlax \u2192 Snorlax",
+        "imagePath": "pokemon_images\\Snorlax.png"
+      },
+      {
+        "index": 144,
+        "name": "Articuno",
+        "type": "Ice, Flying",
+        "description": "A legendary bird POK\u00e9MON that is said to appear to doomed people who are lost in icy mountains.",
+        "evolution": "Articuno",
+        "imagePath": "pokemon_images\\Articuno.png"
+      },
+      {
+        "index": 145,
+        "name": "Zapdos",
+        "type": "Electric, Flying",
+        "description": "A legendary bird POK\u00e9MON that is said to appear from clouds while dropping enormous lightning bolts.",
+        "evolution": "Zapdos",
+        "imagePath": "pokemon_images\\Zapdos.png"
+      },
+      {
+        "index": 146,
+        "name": "Moltres",
+        "type": "Fire, Flying",
+        "description": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+        "evolution": "Moltres",
+        "imagePath": "pokemon_images\\Moltres.png"
+      },
+      {
+        "index": 147,
+        "name": "Dratini",
+        "type": "Dragon",
+        "description": "Long considered a mythical POK\u00e9MON until recently when a small colony was found living underwater.",
+        "evolution": "Dratini \u2192 Dragonair \u2192 Dragonite",
+        "imagePath": "pokemon_images\\Dratini.png"
+      },
+      {
+        "index": 148,
+        "name": "Dragonair",
+        "type": "Dragon",
+        "description": "A mystical POK\u00e9MON that exudes a gentle aura. Has the ability to change climate conditions.",
+        "evolution": "Dratini \u2192 Dragonair \u2192 Dragonite",
+        "imagePath": "pokemon_images\\Dragonair.png"
+      },
+      {
+        "index": 149,
+        "name": "Dragonite",
+        "type": "Dragon, Flying",
+        "description": "An extremely rarely seen marine POK\u00e9MON. Its intelligence is said to match that of humans.",
+        "evolution": "Dratini \u2192 Dragonair \u2192 Dragonite",
+        "imagePath": "pokemon_images\\Dragonite.png"
+      },
+      {
+        "index": 150,
+        "name": "Mewtwo",
+        "type": "Psychic",
+        "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+        "evolution": "Mewtwo",
+        "imagePath": "pokemon_images\\Mewtwo.png"
+      },
+      {
+        "index": 151,
+        "name": "Mew",
+        "type": "Psychic",
+        "description": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+        "evolution": "Mew",
+        "imagePath": "pokemon_images\\Mew.png"
+      }
+    ]
+      }
+    ]
+  }
+}

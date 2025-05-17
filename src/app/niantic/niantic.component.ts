@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-niantic',
-  standalone: true,
+  standalone: false,
   templateUrl: './niantic.component.html',
   styleUrls: ['./niantic.component.css']
 })

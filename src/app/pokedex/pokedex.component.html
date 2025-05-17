@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <div class="pokedex-grid">
+        <div class="pokedex-card" *ngFor="let pokemon of pokemons; let i = index">
+            <div class="card-left">
+                <img [src]="'assets/pokemonImages/' + pokemon.index + '.png'" alt="{{pokemon.name}}" />
+                <h4>{{formatIndex(pokemon.index)}}</h4>
+            </div>
+            <div class="card-right">
+                <h3>{{pokemon.name}}</h3>
+                <h5>Types: {{pokemon.type}}</h5>
+                <p><b>Evolution:</b> {{pokemon.evolution}}</p>
+            </div>
+            <div class="card-footer">
+                <p>{{pokemon.description}}</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="footer-content text-center">
+            <p>&copy; 2023 Pokémon Company. All rights reserved.</p>
+            <p>Pokémon and Pokémon character names are trademarks of Nintendo.</p>
+        </div>
