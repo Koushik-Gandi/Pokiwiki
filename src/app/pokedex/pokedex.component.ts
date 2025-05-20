@@ -18,14 +18,27 @@ export class PokedexComponent implements OnInit {
   }
 
   fetchPokemonData(): void {
-    this.pokedexService.fetchPokemonList().subscribe({
+
+    // Fetch Pokémon data from the local db.json file
+    this.pokedexService.fetchLocalPokemonList().subscribe({
       next: (data) => {
-        this.pokemons = data.Generations[0].Generation1;
+        this.pokemons = data.PokemonList.Generations[0].Generation1;
       },
       error: (error) => {
         console.error('Error fetching Pokémon data:', error);
       }
     });
+
+    // Uncomment the following lines to fetch data from the API instead of the local file
+
+    // this.pokedexService.fetchPokemonList().subscribe({
+    //   next: (data) => {
+    //     this.pokemons = data.Generations[0].Generation1;
+    //   },
+    //   error: (error) => {
+    //     console.error('Error fetching Pokémon data:', error);
+    //   }
+    // });
   }
 
   formatIndex(index: number): string {

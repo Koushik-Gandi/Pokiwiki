@@ -7,8 +7,10 @@
             </div>
             <div class="card-right">
                 <h3>{{pokemon.name}}</h3>
-                <h5>Types: {{pokemon.type}}</h5>
-                <p><b>Evolution:</b> {{pokemon.evolution}}</p>
+                <p><b>Types:</b> <br>
+                    <span *ngFor="let type of pokemon.type" [ngClass]="type.toLowerCase()" class="type-badge">{{type | uppercase}} </span>
+                </p>
+                <p><b>Evolution:</b>  <br>{{pokemon.evolution}}</p>
             </div>
             <div class="card-footer">
                 <p>{{pokemon.description}}</p>
@@ -21,3 +23,5 @@
             <p>&copy; 2023 Pokémon Company. All rights reserved.</p>
             <p>Pokémon and Pokémon character names are trademarks of Nintendo.</p>
         </div>
+    </div>
+</div>
