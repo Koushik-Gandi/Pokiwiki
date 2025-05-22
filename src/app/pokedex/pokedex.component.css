@@ -1,153 +1,209 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f8f9fa;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 32px 24px 0 24px;
+}
+
+.dropdown {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  float: right;
+  gap: 12px;
+}
+
+.dropdown label {
+  font-weight: 600;
+  color: #444;
+}
+
+.dropdown select {
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  padding: 6px 12px;
+  font-size: 1rem;
+  background: #fff;
+  transition: border 0.2s;
+}
+
+.generation-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+.generation-tabs button {
+  background: #3b4cca;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.generation-tabs button.active, .generation-tabs button:hover {
+  background: #ffcb05;
+  color: #3b4cca;
+}
+
 .pokedex-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 16px;
-    }
+  display: grid;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+.pokedex-grid.three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+.pokedex-grid.four-columns {
+  grid-template-columns: repeat(4, 1fr);
+}
 
-    .pokedex-card {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 70% 30%;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        overflow: hidden;
-        background-color: #f9f9f9;
-        margin: 10px;
-        height: 100%; /* Adjust height as needed */
-    }
+.pokedex-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #b0b8e6;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.18s, box-shadow 0.18s;
+  position: relative;
+}
+.pokedex-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px #b0b8e6;
+  z-index: 2;
+}
+.card-left {
+  background: #e0e7ff;
+  padding: 18px 0 8px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-left img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 2px 8px #b0b8e6);
+}
+.card-left h4 {
+  font-size: 1.1rem;
+  color: #3b4cca;
+  font-weight: 700;
+  margin: 0;
+}
+.card-right {
+  padding: 12px 18px 0 18px;
+  flex: 1;
+}
+.card-right h3 {
+  font-size: 1.3rem;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.card-right p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 8px;
+}
+.type-badge {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 2px 10px;
+  margin: 2px 4px 2px 0;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #fff;
+  background: #888;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 4px #0001;
+}
+.type-badge.fire { background: #fd7d24; }
+.type-badge.water { background: #4592c4; }
+.type-badge.grass { background: #9bcc50; }
+.type-badge.electric { background: #eed535; color: #444; }
+.type-badge.ice { background: #51c4e7; color: #222; }
+.type-badge.fighting { background: #d56723; }
+.type-badge.poison { background: #b97fc9; }
+.type-badge.ground { background: #f7de3f; color: #444; }
+.type-badge.flying { background: #3dc7ef; color: #222; }
+.type-badge.psychic { background: #f366b9; }
+.type-badge.bug { background: #729f3f; }
+.type-badge.rock { background: #a38c21; color: #222; }
+.type-badge.ghost { background: #7b62a3; }
+.type-badge.dragon { background: #53a4cf; }
+.type-badge.dark { background: #707070; }
+.type-badge.steel { background: #9eb7b8; color: #222; }
+.type-badge.fairy { background: #fdb9e9; color: #a23a7a; }
 
-    .card-left {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        background-color: #e3f2fd;
-    }
+.card-footer {
+  background: #f3f6fa;
+  padding: 10px 18px;
+  border-top: 1px solid #e0e7ff;
+  font-size: 0.98rem;
+  color: #3b4cca;
+  border-radius: 0 0 18px 18px;
+  min-height: 48px;
+}
 
-    .card-left img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
+.scroll-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  background: #3b4cca;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 12px #b0b8e6;
+  cursor: pointer;
+  z-index: 100;
+  transition: background 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.scroll-to-top:hover {
+  background: lightblue;
+  color: #3b4cca;
+  transform: scale(1.12);
+}
 
-    .card-right {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        padding: 10px;
-    }
+.footer {
+  margin-top: 32px;
+  padding: 18px 0 0 0;
+  background: #e0e7ff;
+  border-radius: 0 0 18px 18px;
+}
+.footer-content {
+  color: #3b4cca;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
 
-    .card-right h3,
-    .card-right p {
-        margin: 8px 0;
-    }
-
-    .card-footer {
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
-        padding: 10px;
-        background-color: #f1f1f1;
-        text-align: center;
-        font-size: 14px;
-        color: #555;
-    }
-
-    .type-badge {
-        display: inline-block;
-        padding: 2px 6px;
-        margin: 2px;
-        border-radius: 4px;
-        font-size: 12px;
-        text-transform: capitalize;
-    }
-
-    .type-badge.normal {
-        background-color: #A8A878;
-        color: black;
-    }
-
-    .type-badge.fire {
-        background-color: #F08030;
-        color: white;
-    }
-
-    .type-badge.water {
-        background-color: #6890F0;
-        color: white;
-    }
-
-    .type-badge.grass {
-        background-color: #78C850;
-        color: black;
-    }
-
-    .type-badge.electric {
-        background-color: #F8D030;
-        color: black;
-    }
-
-    .type-badge.ice {
-        background-color: #98D8D8;
-        color: black;
-    }
-
-    .type-badge.fighting {
-        background-color: #C03028;
-        color: white;
-    }
-
-    .type-badge.poison {
-        background-color: #A040A0;
-        color: white;
-    }
-
-    .type-badge.ground {
-        background-color: #E0C068;
-        color: black;
-    }
-
-    .type-badge.flying {
-        background-color: #A890F0;
-        color: black;
-    }
-
-    .type-badge.psychic {
-        background-color: #F85888;
-        color: white;
-    }
-
-    .type-badge.bug {
-        background-color: #A8B820;
-        color: black;
-    }
-
-    .type-badge.rock {
-        background-color: #B8A038;
-        color: black;
-    }
-
-    .type-badge.ghost {
-        background-color: #705898;
-        color: white;
-    }
-
-    .type-badge.dragon {
-        background-color: #7038F8;
-        color: white;
-    }
-
-    .type-badge.dark {
-        background-color: #705848;
-        color: white;
-    }
-
-    .type-badge.steel {
-        background-color: #B8B8D0;
-        color: black;
-    }
-
-    .type-badge.fairy {
-        background-color: #EE99AC;
-        color: black;
-    }
+@media (max-width: 900px) {
+  .pokedex-grid.three-columns, .pokedex-grid.four-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .pokedex-grid.three-columns, .pokedex-grid.four-columns {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 10px 2px 0 2px;
+  }
+  .card-left img {
+    width: 70px;
+    height: 70px;
+  }
+}

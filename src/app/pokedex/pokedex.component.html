@@ -1,5 +1,19 @@
 <div class="container mt-5">
-    <div class="pokedex-grid">
+    <div class="dropdown">
+        <label for="cardCount">Select Card Layout:</label>
+        <select id="cardCount" (change)="updateGridColumns($event)">
+            <option value="3">3 Cards</option>
+            <option value="4">4 Cards</option>
+        </select>
+    </div>
+    <div class="generation-tabs">
+        <button *ngFor="let generation of generations" 
+                (click)="switchGeneration(generation)" 
+                [class.active]="generation === selectedGeneration">
+            {{ generation }}
+        </button>
+    </div>
+    <div class="pokedex-grid" [ngClass]="gridClass">
         <div class="pokedex-card" *ngFor="let pokemon of pokemons; let i = index">
             <div class="card-left">
                 <img [src]="'assets/pokemonImages/' + pokemon.index + '.png'" alt="{{pokemon.name}}" />
@@ -17,6 +31,7 @@
             </div>
         </div>
     </div>
+    <button class="scroll-to-top" *ngIf="showScrollToTop" (click)="scrollToTop()">&#8593;</button>
     <hr>
     <div class="footer">
         <div class="footer-content text-center">
