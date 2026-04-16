@@ -11,16 +11,16 @@ import { TeamValorComponent } from './teams/team-valor/team-valor.component';
 import { TeamRocketComponent } from './teams/team-rocket/team-rocket.component';
 
 const routes: Routes = [
-  { path: "", component: AboutComponent },
+   { path: "", component: AboutComponent, title: 'About' },
   // {path:'homePage',component:HomePageComponent},
-  { path: 'about', component: AboutComponent },
-  { path: 'events', component: EventsComponent },
-  { path: 'niantic', component: NianticComponent },
-  { path: 'team-instinct', component: TeamInstinctComponent },
-  { path: 'team-mystic', component: TeamMysticComponent },
-  { path: 'team-valor', component: TeamValorComponent },
-  { path: 'team-rocket', component: TeamRocketComponent },
-  { path: 'pokedex', component: PokedexComponent },
+  { path: 'about', component: AboutComponent, title: 'About' },
+  { path: 'events', component: EventsComponent, title: 'Events' },
+  { path: 'niantic', component: NianticComponent, title: 'Niantic' },
+  { path: 'team-instinct', component: TeamInstinctComponent, title: 'Team Instinct' },
+  { path: 'team-mystic', component: TeamMysticComponent, title: 'Team Mystic' },
+  { path: 'team-valor', component: TeamValorComponent, title: 'Team Valor' },
+  { path: 'team-rocket', component: TeamRocketComponent, title: 'Team Rocket' },
+  { path: 'pokedex', component: PokedexComponent, title: 'Pokedex' },
   { path: '**', redirectTo: "about", pathMatch: "full" },
 ];
 
