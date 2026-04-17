@@ -1,0 +1,33 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop # Triggers when you push to the develop branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Use the version your project needs
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build
+        # Replace 'your-repo-name' with your actual repository name
+        run: npm run build -- --base-href=/Pokiwiki/
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action will push build files to
+          folder: dist/Pokiwiki/browser # Path to your built files
