@@ -1,3 +1,15 @@
 .content {
   padding: 2rem;
 }
+
+.footer {
+  margin-top: 32px;
+  padding: 18px 0 0 0;
+  background: #e0e7ff;
+  border-radius: 0 0 18px 18px;
+}
+.footer-content {
+  color: #3b4cca;
+  font-size: 1.05rem;
+  font-weight: 500;
+}

@@ -4,6 +4,8 @@ export class Pokemon {
   type: string[];
   evolution: string;
   description: string;
+  abilities?: string[];
+  baseStats?: { [key: string]: number };
   imagePath: string;
 }
 
