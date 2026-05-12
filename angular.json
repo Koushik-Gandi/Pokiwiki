@@ -42,6 +42,7 @@
               "sourceMap": false,
               "namedChunks": false,
               "aot": true,
+              "baseHref": "/Pokiwiki/",
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
