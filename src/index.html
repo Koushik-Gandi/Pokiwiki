@@ -4,6 +4,20 @@
     <title>PokiWiki</title>
     <meta charset="UTF-8" />
     <base href="/Pokiwiki/">
+    <script>
+      // GitHub Pages 404 redirect restoration
+      // When 404.html redirects here, restore the original route for Angular to handle
+      if (sessionStorage.redirect) {
+        let redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        let target = new URL(redirect).pathname;
+        // Remove base href from the path for Angular routing
+        if (target.startsWith('/Pokiwiki/')) {
+          target = '/' + target.substring('/Pokiwiki/'.length);
+        }
+        window.history.replaceState(null, null, target);
+      }
+    </script>
   </head>
   <body>
     <app-root>Loading...</app-root>
