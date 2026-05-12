@@ -3,8 +3,8 @@
         <div class="search-bar">
             <label for="searchQuery">Search Pokémon</label>
             <div class="search-input-row">
-                <input id="searchQuery" type="text" [value]="searchQuery" (input)="searchQuery = $any($event.target).value" placeholder="Search by name, index, or type" />
-                <button class="clear-search-btn" (click)="searchQuery = ''" [disabled]="!searchQuery.trim()">Clear</button>
+                <input id="searchQuery" type="text" [value]="searchQuery()" (input)="searchQuery.set($any($event.target).value)" placeholder="Search by name, index, or type" />
+                <button class="clear-search-btn" (click)="searchQuery.set('')" [disabled]="!searchQuery().trim()">Clear</button>
             </div>
             <div class="search-helper">Search across all generations</div>
         </div>
@@ -16,35 +16,35 @@
             </select>
         </div>
     </div>
-    <div class="detail-modal-backdrop" *ngIf="selectedPokemon" (click)="closeInfo()">
+    <div class="detail-modal-backdrop" *ngIf="selectedPokemon()" (click)="closeInfo()">
         <div class="detail-modal" (click)="$event.stopPropagation()">
             <div class="detail-modal-header">
                 <div>
-                    <h2>{{ selectedPokemon.name }}</h2>
-                    <p class="detail-index">{{ formatIndex(selectedPokemon.index) }}</p>
+                    <h2>{{ selectedPokemon().name }}</h2>
+                    <p class="detail-index">{{ formatIndex(selectedPokemon().index) }}</p>
                     <div class="detail-types">
-                        <span *ngFor="let type of selectedPokemon.type" [ngClass]="type.toLowerCase()" class="type-badge">{{ type | uppercase }}</span>
+                        <span *ngFor="let type of selectedPokemon().type" [ngClass]="type.toLowerCase()" class="type-badge">{{ type | uppercase }}</span>
                     </div>
                 </div>
                 <button class="close-detail-btn" (click)="closeInfo()">Close</button>
             </div>
             <div class="detail-modal-body">
                 <div class="detail-image">
-                    <img [src]="'assets/pokemonImages/' + selectedPokemon.index + '.png'" alt="{{ selectedPokemon.name }}" />
+                    <img [src]="'assets/pokemonImages/' + selectedPokemon().index + '.png'" alt="{{ selectedPokemon().name }}" />
                 </div>
                 <div class="detail-properties">
-                    <p><strong>Evolution:</strong> {{ selectedPokemon.evolution }}</p>
-                    <p><strong>Description:</strong> {{ selectedPokemon.description }}</p>
-                    <div class="detail-abilities" *ngIf="selectedPokemon.abilities?.length">
+                    <p><strong>Evolution:</strong> {{ selectedPokemon().evolution }}</p>
+                    <p><strong>Description:</strong> {{ selectedPokemon().description }}</p>
+                    <div class="detail-abilities" *ngIf="selectedPokemon().abilities?.length">
                         <p><strong>Abilities:</strong></p>
                         <ul>
-                            <li *ngFor="let ability of selectedPokemon.abilities">{{ ability }}</li>
+                            <li *ngFor="let ability of selectedPokemon().abilities">{{ ability }}</li>
                         </ul>
                     </div>
-                    <div class="detail-stats" *ngIf="selectedPokemon.baseStats">
+                    <div class="detail-stats" *ngIf="selectedPokemon().baseStats">
                         <p><strong>Base Stats:</strong></p>
                         <div class="stats-grid">
-                            <div class="stat-row" *ngFor="let stat of selectedPokemon.baseStats | keyvalue">
+                            <div class="stat-row" *ngFor="let stat of selectedPokemon().baseStats | keyvalue">
                                 <span class="stat-key">{{ stat.key }}</span>
                                 <span class="stat-value">{{ stat.value }}</span>
                             </div>
@@ -54,19 +54,19 @@
             </div>
         </div>
     </div>
-    <div *ngIf="!isSearching">
+    <div *ngIf="!isSearching()">
         <div class="generation-tabs">
-            <button class="page-nav" (click)="prevGenerationPage()" [disabled]="generationPage === 0">&#8592;</button>
-            <button *ngFor="let generation of visibleGenerations"
+            <button class="page-nav" (click)="prevGenerationPage()" [disabled]="generationPage() === 0">←</button>
+            <button *ngFor="let generation of visibleGenerations()"
                     (click)="switchGeneration(generation)"
-                    [class.active]="generation === selectedGeneration">
+                    [class.active]="generation === selectedGeneration()">
                 {{ generation }}
             </button>
-            <button class="page-nav" (click)="nextGenerationPage()" [disabled]="generationPage >= generationPageCount - 1">&#8594;</button>
+            <button class="page-nav" (click)="nextGenerationPage()" [disabled]="generationPage() >= generationPageCount() - 1">→</button>
         </div>
-        <div class="generation-page-label">Page {{ generationPage + 1 }} of {{ generationPageCount }}</div>
-        <div class="pokedex-grid" [ngClass]="gridClass">
-            <div class="pokedex-card" *ngFor="let pokemon of pokemons; let i = index">
+        <div class="generation-page-label">Page {{ generationPage() + 1 }} of {{ generationPageCount() }}</div>
+        <div class="pokedex-grid" [ngClass]="gridClass()">
+            <div class="pokedex-card" *ngFor="let pokemon of pokemons(); let i = index">
                 <div class="card-left">
                     <img [src]="'assets/pokemonImages/' + pokemon.index + '.png'" alt="{{pokemon.name}}" />
                     <h4>{{formatIndex(pokemon.index)}}</h4>
@@ -78,15 +78,15 @@
                     </div>
                 </div>
                 <div class="card-actions">
-                    <button class="more-info-btn" (click)="showMoreInfo(pokemon)">More Info</button>
+                    <a class="more-info-link" (click)="showMoreInfo(pokemon)">More Info</a>
                 </div>
             </div>
         </div>
     </div>
-    <div *ngIf="isSearching">
-        <div class="search-results-label">Showing {{ filteredPokemons.length }} result{{ filteredPokemons.length === 1 ? '' : 's' }}</div>
-        <div class="pokedex-grid" [ngClass]="gridClass">
-            <div class="pokedex-card" *ngFor="let pokemon of filteredPokemons; let i = index">
+    <div *ngIf="isSearching()">
+        <div class="search-results-label">Showing {{ filteredPokemons().length }} result{{ filteredPokemons().length === 1 ? '' : 's' }}</div>
+        <div class="pokedex-grid" [ngClass]="gridClass()">
+            <div class="pokedex-card" *ngFor="let pokemon of filteredPokemons(); let i = index">
                 <div class="card-left">
                     <img [src]="'assets/pokemonImages/' + pokemon.index + '.png'" alt="{{pokemon.name}}" />
                     <h4>{{formatIndex(pokemon.index)}}</h4>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="card-actions">
-                    <button class="more-info-btn" (click)="showMoreInfo(pokemon)">More Info</button>
+                    <a class="more-info-link" (click)="showMoreInfo(pokemon)">More Info</a>
                 </div>
             </div>
         </div>
