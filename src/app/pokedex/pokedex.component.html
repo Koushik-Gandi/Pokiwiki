@@ -16,10 +16,6 @@
             </select>
         </div>
     </div>
-    <app-pokemon-detail-popup
-      [pokemonDetail]="selectedPokemon()"
-      (close)="closeInfo()"
-    ></app-pokemon-detail-popup>
     <div *ngIf="!isSearching()">
         <div class="generation-tabs">
             <button class="page-nav" (click)="prevGenerationPage()" [disabled]="generationPage() === 0">←</button>
@@ -69,5 +65,9 @@
             </div>
         </div>
     </div>
+    <app-pokemon-detail-popup
+      [pokemonDetail]="selectedPokemon()"
+      (close)="closeInfo()"
+    ></app-pokemon-detail-popup>
     <button class="scroll-to-top" *ngIf="showScrollToTop" (click)="scrollToTop()">&#8593;</button>
 </div>

@@ -85,7 +85,6 @@ export class PokedexComponent implements OnInit {
         this.isLoadingDetails.set(false);
         if (result) {
           this.selectedPokemon.set(new PokemonDetail(result));
-          window.scrollTo({ top: 0, behavior: 'smooth' });
         } else {
           console.warn(`Pokémon with ID ${pokemon.index} was not found.`);
           this.selectedPokemon.set(null);
