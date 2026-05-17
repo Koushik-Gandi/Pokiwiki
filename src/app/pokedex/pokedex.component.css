@@ -392,36 +392,6 @@
 .more-info-link:hover {
   color: #2a3a9a;
 }
-.type-badge {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 2px 10px;
-  margin: 2px 4px 2px 0;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: #fff;
-  background: #888;
-  letter-spacing: 1px;
-  box-shadow: 0 1px 4px #0001;
-}
-.type-badge.fire { background: #fd7d24; }
-.type-badge.water { background: #4592c4; }
-.type-badge.grass { background: #9bcc50; }
-.type-badge.electric { background: #eed535; color: #444; }
-.type-badge.ice { background: #51c4e7; color: #222; }
-.type-badge.fighting { background: #d56723; }
-.type-badge.poison { background: #b97fc9; }
-.type-badge.ground { background: #f7de3f; color: #444; }
-.type-badge.flying { background: #3dc7ef; color: #222; }
-.type-badge.psychic { background: #f366b9; }
-.type-badge.bug { background: #729f3f; }
-.type-badge.rock { background: #a38c21; color: #222; }
-.type-badge.ghost { background: #7b62a3; }
-.type-badge.dragon { background: #53a4cf; }
-.type-badge.dark { background: #707070; }
-.type-badge.steel { background: #9eb7b8; color: #222; }
-.type-badge.fairy { background: #fdb9e9; color: #a23a7a; }
-
 .card-footer {
   background: #f3f6fa;
   padding: 10px 18px;

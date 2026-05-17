@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PokedexComponent } from './pokedex/pokedex.component';
+import { PokemonDetailPopupComponent } from './pokedex/pokemon-detail-popup/pokemon-detail-popup.component';
 import { NavComponent } from './nav/nav.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { TeamInstinctComponent } from './teams/team-instinct/team-instinct.component';
@@ -34,7 +35,8 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    PokemonDetailPopupComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

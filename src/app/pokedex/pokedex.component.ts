@@ -21,6 +21,7 @@ export class PokedexComponent implements OnInit {
   generationPage: WritableSignal<number> = signal(0);
   searchQuery: WritableSignal<string> = signal('');
   showScrollToTop: WritableSignal<boolean> = signal(false);
+  isLoadingDetails: WritableSignal<boolean> = signal(false);
 
   readonly isSearching: Signal<boolean> = computed(() => this.searchQuery().trim().length > 0);
   readonly filteredPokemons: Signal<Pokemon[]> = computed(() => {
@@ -78,8 +79,23 @@ export class PokedexComponent implements OnInit {
   }
 
   showMoreInfo(pokemon: Pokemon): void {
-    this.selectedPokemon.set(new PokemonDetail(pokemon));
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    this.isLoadingDetails.set(true);
+    this.pokedexService.fetchByID(pokemon.index).subscribe({
+      next: (result) => {
+        this.isLoadingDetails.set(false);
+        if (result) {
+          this.selectedPokemon.set(new PokemonDetail(result));
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          console.warn(`Pokémon with ID ${pokemon.index} was not found.`);
+          this.selectedPokemon.set(null);
+        }
+      },
+      error: (error) => {
+        this.isLoadingDetails.set(false);
+        console.error('Error fetching Pokémon details:', error);
+      }
+    });
   }
 
   closeInfo(): void {

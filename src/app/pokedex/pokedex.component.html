@@ -16,44 +16,10 @@
             </select>
         </div>
     </div>
-    <div class="detail-modal-backdrop" *ngIf="selectedPokemon()" (click)="closeInfo()">
-        <div class="detail-modal" (click)="$event.stopPropagation()">
-            <div class="detail-modal-header">
-                <div>
-                    <h2>{{ selectedPokemon().name }}</h2>
-                    <p class="detail-index">{{ formatIndex(selectedPokemon().index) }}</p>
-                    <div class="detail-types">
-                        <span *ngFor="let type of selectedPokemon().type" [ngClass]="type.toLowerCase()" class="type-badge">{{ type | uppercase }}</span>
-                    </div>
-                </div>
-                <button class="close-detail-btn" (click)="closeInfo()">Close</button>
-            </div>
-            <div class="detail-modal-body">
-                <div class="detail-image">
-                    <img [src]="'assets/pokemonImages/' + selectedPokemon().index + '.png'" alt="{{ selectedPokemon().name }}" />
-                </div>
-                <div class="detail-properties">
-                    <p><strong>Evolution:</strong> {{ selectedPokemon().evolution }}</p>
-                    <p><strong>Description:</strong> {{ selectedPokemon().description }}</p>
-                    <div class="detail-abilities" *ngIf="selectedPokemon().abilities?.length">
-                        <p><strong>Abilities:</strong></p>
-                        <ul>
-                            <li *ngFor="let ability of selectedPokemon().abilities">{{ ability }}</li>
-                        </ul>
-                    </div>
-                    <div class="detail-stats" *ngIf="selectedPokemon().baseStats">
-                        <p><strong>Base Stats:</strong></p>
-                        <div class="stats-grid">
-                            <div class="stat-row" *ngFor="let stat of selectedPokemon().baseStats | keyvalue">
-                                <span class="stat-key">{{ stat.key }}</span>
-                                <span class="stat-value">{{ stat.value }}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <app-pokemon-detail-popup
+      [pokemonDetail]="selectedPokemon()"
+      (close)="closeInfo()"
+    ></app-pokemon-detail-popup>
     <div *ngIf="!isSearching()">
         <div class="generation-tabs">
             <button class="page-nav" (click)="prevGenerationPage()" [disabled]="generationPage() === 0">←</button>

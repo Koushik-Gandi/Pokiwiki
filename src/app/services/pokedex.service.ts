@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
+import { Pokemon } from '../models/pokemon.model';
 
 @Injectable({
   providedIn: 'root'
@@ -21,5 +23,21 @@ export class PokedexService {
   // Fetch Pokémon data from the local db.json file
   fetchLocalPokemonList(): Observable<any> {
     return this.http.get<any>(this.localDbUrl);
+  }
+
+  fetchByID(id: number): Observable<Pokemon | null> {
+    return this.http.get<any>(this.localDbUrl).pipe(
+      map((data) => {
+        const generations: Record<string, Pokemon[]> = data?.PokemonList?.Generations || {};
+        const allPokemon = Object.keys(generations).reduce((all: Pokemon[], generation) => {
+          return all.concat(generations[generation] || []);
+        }, []);
+        return allPokemon.find((pokemon: Pokemon) => pokemon.index === id) || null;
+      }),
+      catchError((error) => {
+        console.error('Error fetching Pokémon by ID:', error);
+        return of(null);
+      })
+    );
   }
 }

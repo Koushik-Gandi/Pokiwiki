@@ -1,0 +1,40 @@
+<div class="detail-modal-backdrop" *ngIf="pokemonDetail" (click)="onClose()">
+  <div class="detail-modal" (click)="$event.stopPropagation()">
+    <div class="detail-modal-header">
+      <div>
+        <h2>{{ pokemonDetail?.name }}</h2>
+        <p class="detail-index">{{ formatIndex(pokemonDetail?.index) }}</p>
+        <div class="detail-types">
+          <span *ngFor="let type of pokemonDetail?.type" [ngClass]="type.toLowerCase()" class="type-badge">{{ type | uppercase }}</span>
+        </div>
+      </div>
+      <button class="close-detail-btn" (click)="onClose()">Close</button>
+    </div>
+    <div class="detail-modal-body">
+      <div class="detail-image">
+        <img [src]="'assets/pokemonImages/' + pokemonDetail?.index + '.png'" [alt]="pokemonDetail?.name" />
+      </div>
+      <div class="detail-properties">
+        <p><strong>Evolution:</strong> {{ pokemonDetail?.evolution }}</p>
+        <p><strong>Description:</strong> {{ pokemonDetail?.description }}</p>
+        <div class="detail-extra">
+          <div class="detail-abilities" *ngIf="pokemonDetail?.abilities?.length">
+            <p><strong>Abilities:</strong></p>
+            <ul>
+              <li *ngFor="let ability of pokemonDetail?.abilities">{{ ability }}</li>
+            </ul>
+          </div>
+          <div class="detail-stats" *ngIf="pokemonDetail?.baseStats">
+            <p><strong>Base Stats:</strong></p>
+            <div class="stats-grid">
+              <div class="stat-row" *ngFor="let stat of pokemonDetail?.baseStats | keyvalue">
+                <span class="stat-key">{{ stat.key }}</span>
+                <span class="stat-value">{{ stat.value }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
